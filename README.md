@@ -16,4 +16,4 @@ streamlit run app.py
 ```
 
 ## Live Demo
-[Click here](https://your-streamlit-app-link.streamlit.app)
+[Click here](https://opensource-ecosystem-analytics-jsaecyxtbndpyggz2ezhrm.streamlit.app/)
