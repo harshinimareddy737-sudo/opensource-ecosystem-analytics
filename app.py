@@ -50,8 +50,8 @@ st.subheader("📊 Ecosystem Overview")
 
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Total Events",        f"{len(df):,}")
-col2.metric("Unique Repositories", f"{df['repo_name'].n_unique():,}")
-col3.metric("Unique Contributors", f"{df['actor'].n_unique():,}")
+col2.metric("Unique Repositories", f"{df['repo_name'].nunique():,}")
+col3.metric("Unique Contributors", f"{df['actor'].nunique():,}")
 col4.metric("Total Commits",       f"{int(df['commit_count'].sum()):,}")
 
 # ── Hourly Trend ──
